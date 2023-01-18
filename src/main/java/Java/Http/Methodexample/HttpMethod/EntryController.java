@@ -5,10 +5,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class EntryController {
-    /*“ü—Í‰æ–Ê‚ğ•\¦*/
+    /*å…¥åŠ›ç”»é¢ã‚’è¡¨ç¤º*/
     @GetMapping("entry")
     public String showView() {
-        return "entry";//entry.html‚Æ•R‚Ã‚¯‚ç‚ê‚Ä‚¢‚ÄHTML‚ª•\¦‚³‚ê‚é
-        //http://localhost:8080/entry‚ÅƒAƒNƒZƒX
+        return "entry";//entry.htmlã¨ç´ã¥ã‘ã‚‰ã‚Œã¦ã„ã¦HTMLãŒè¡¨ç¤ºã•ã‚Œã‚‹
+        //http://localhost:8080/entryã§ã‚¢ã‚¯ã‚»ã‚¹
     }
 }
