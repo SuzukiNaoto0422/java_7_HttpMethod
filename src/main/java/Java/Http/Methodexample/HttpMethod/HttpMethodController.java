@@ -16,7 +16,6 @@ import java.net.URI;
 import java.util.List;
 import java.util.Map;
 
-@org.springframework.stereotype.Controller
 @RestController
 
 public class HttpMethodController {
@@ -59,12 +58,6 @@ public class HttpMethodController {
         }' のようなコマンド*/
     }
 
-    /*入力画面を表示*/
-    @GetMapping("entry")
-    public String showView() {
-        return "entry";//entry.htmlと紐づけられていてHTMLが表示される
-        //http://localhost:8080/entryでアクセス
-    }
 
     @GetMapping("/greeting")
     public String getGreeting(@NonNull @RequestParam(name = "name")String name,
