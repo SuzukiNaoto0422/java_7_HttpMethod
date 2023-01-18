@@ -19,7 +19,7 @@ import java.util.Map;
 @org.springframework.stereotype.Controller
 @RestController
 
-public class Controller {
+public class HttpMethodController {
 
     @GetMapping("/names")
     public List<String> getNames() {
