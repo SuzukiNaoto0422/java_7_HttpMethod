@@ -13,15 +13,15 @@ repositories {
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter-web'//Spring Boot‚ÅWebƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ğŠJ”­‚·‚é‚½‚ß‚É•K—v
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'//Spring BootƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ÌƒeƒXƒg‚ğÀs‚·‚é‚½‚ß‚É•K—v
-	developmentOnly 'org.springframework.boot:spring-boot-devtools'//ŠJ”­‚É•Ö—˜‚È‹@”\‚ğ’ñ‹Ÿ‚·‚éSpring Boot‚ÌƒpƒbƒP[ƒW
-	compileOnly 'org.projectlombok:lombok'//Java‚ÌƒR[ƒh‚ğŠÈŒ‰‚É‘‚­‚½‚ß‚Ìƒ‰ƒCƒuƒ‰ƒŠ‚ÅAƒAƒmƒe[ƒVƒ‡ƒ“‚ğg‚Á‚Ägetter/setter‚âtoString‚È‚Ç‚Ìƒƒ\ƒbƒh‚ğ©“®¶¬
+	implementation 'org.springframework.boot:spring-boot-starter-web'//Spring Bootã§Webã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã‚’é–‹ç™ºã™ã‚‹ãŸã‚ã«å¿…è¦
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'//Spring Bootã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã®ãƒ†ã‚¹ãƒˆã‚’å®Ÿè¡Œã™ã‚‹ãŸã‚ã«å¿…è¦
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'//é–‹ç™ºæ™‚ã«ä¾¿åˆ©ãªæ©Ÿèƒ½ã‚’æä¾›ã™ã‚‹Spring Bootã®ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸
+	compileOnly 'org.projectlombok:lombok'//Javaã®ã‚³ãƒ¼ãƒ‰ã‚’ç°¡æ½”ã«æ›¸ããŸã‚ã®ãƒ©ã‚¤ãƒ–ãƒ©ãƒªã§ã€ã‚¢ãƒãƒ†ãƒ¼ã‚·ãƒ§ãƒ³ã‚’ä½¿ã£ã¦getter/setterã‚„toStringãªã©ã®ãƒ¡ã‚½ãƒƒãƒ‰ã‚’è‡ªå‹•ç”Ÿæˆ
 	annotationProcessor 'org.projectlombok:lombok'
-	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'//Spring BootƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ÅThymeleafƒeƒ“ƒvƒŒ[ƒgƒGƒ“ƒWƒ“‚ğg—p‚·‚é‚½‚ß‚ÌƒpƒbƒP[ƒW
-	implementation 'org.springframework.boot:spring-boot-starter-validation'//Spring BootƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ÅƒoƒŠƒf[ƒVƒ‡ƒ“‚ğÀs‚·‚é‚½‚ß‚ÌƒpƒbƒP[ƒW
+	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'//Spring Bootã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã§Thymeleafãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆã‚¨ãƒ³ã‚¸ãƒ³ã‚’ä½¿ç”¨ã™ã‚‹ãŸã‚ã®ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸
+	implementation 'org.springframework.boot:spring-boot-starter-validation'//Spring Bootã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã§ãƒãƒªãƒ‡ãƒ¼ã‚·ãƒ§ãƒ³ã‚’å®Ÿè¡Œã™ã‚‹ãŸã‚ã®ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸
 	implementation 'javax.validation:validation-api:2.0.1.Final'
-	implementation 'org.hibernate.validator:hibernate-validator:6.1.5.Final'//Java Bean‚ÌƒoƒŠƒf[ƒVƒ‡ƒ“i“ü—Íƒ`ƒFƒbƒNj‚ğs‚¤‚½‚ß‚Ìƒ‰ƒCƒuƒ‰ƒŠ
+	implementation 'org.hibernate.validator:hibernate-validator:6.1.5.Final'//Java Beanã®ãƒãƒªãƒ‡ãƒ¼ã‚·ãƒ§ãƒ³ï¼ˆå…¥åŠ›ãƒã‚§ãƒƒã‚¯ï¼‰ã‚’è¡Œã†ãŸã‚ã®ãƒ©ã‚¤ãƒ–ãƒ©ãƒª
 }
 
 tasks.named('test') {
